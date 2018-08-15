@@ -61,7 +61,9 @@ padding: 4px 20px;
     width: 20px;
     }
 }
-
+.sum_cell{
+    height: 400px !important;
+}
 input,input:focus{
     height: 100% !important;
     word-break: break-all;
@@ -72,6 +74,5 @@ input,input:focus{
     
     }
     textarea{
-        resize:vertical;
-        max-height: 90% !important;
+        resize:none;
         }
